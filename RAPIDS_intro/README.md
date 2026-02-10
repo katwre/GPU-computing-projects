@@ -1,5 +1,15 @@
 # Introduction to RAPIDS¹
 
+## Intro
+
+Before diving into RAPIDS:
+
+- **Hello_GPU.ipynb**: GPU programming concepts using Numba CUDA, covering kernels, threads, blocks, and grids.
+
+- **CuPy_introduction.ipynb**: CuPy as a drop-in NumPy replacement for GPU acceleration; includes: basic operations, performance comparisons, matrix multiplication, medical image processing, and memory transfer overhead.
+
+## RAPIDS
+
 RAPIDS is an open-source GPU-accelerated data science and analytics platform developed mainly by NVIDIA. Think of it as a way to run the Python data science stack (pandas, scikit-learn, etc.) on GPUs instead of CPUs, often getting 10-100× speedups on large datasets.
 
 Its core libraries include:

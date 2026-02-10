@@ -10,3 +10,6 @@ A collection of tutorials and projects exploring GPU computing:
 
 ¹Implemented as part of the tutorials at the [PyData Global conference 2025](https://pydata.org/global2025)
 
+
+CPUs vs GPUs simply explained: https://www.youtube.com/watch?v=Axd50ew4pco
+

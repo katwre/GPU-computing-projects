@@ -1,0 +1,11 @@
+numpy>=1.24.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+cupy-cuda12x>=12.0.0  # Use cupy-cuda11x if you have CUDA 11
+numba>=0.58.0
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+requests>=2.31.0
+tqdm>=4.66.0

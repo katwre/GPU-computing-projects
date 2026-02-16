@@ -4,8 +4,8 @@ A collection of tutorials and projects exploring GPU computing:
 
 | Project | Folder | Link |
 |---------------|-----|--------|
-| 1. Introduction to RAPIDS¹ | RAPIDS_intro | [🔗 Link](https://github.com/katwre/ML-projects/tree/main/RAPIDS_intro) |
-| 2. Image filtering² | Image_Filtering_GPU | [🔗 Link](https://github.com/katwre/ML-projects/tree/main/Image_Filtering_GPU) |
+| 1. Introduction to RAPIDS¹ | RAPIDS_intro | [🔗 Link](https://github.com/katwre/GPU-computing-projects/tree/main/RAPIDS_intro) |
+| 2. Image filtering² | Image_Filtering_GPU | [🔗 Link](https://github.com/katwre/GPU-computing-projects/tree/main/Image_Filtering_GPU) |
 
 
 ### Notes:

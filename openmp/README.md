@@ -155,7 +155,7 @@ Here we multiplies two dense ($n \times n$) matrices $m1$ and $m2$, storing the 
   <img src="img/naive.png" width="400" />
   <img src="img/ordered.png" width="400" />
 </p>
-  <figcaption align="center"><b>Figure.</b> Upper: The naive loop order ($i-j-k$) accesses $B[k][j]$ with large strides in row-major memory, so cache reuse is poor and performance drops. Below: The reordered loop $(i-k-j)$ makes $j$ the innermost loop, so $B[k][j]$ and $C[i][j]$ are accessed contiguously; this improves spatial locality and prefetch efficiency.</figcaption>
+  <figcaption align="center"><b>Figure.</b> LEft: The naive loop order ($i-j-k$) accesses $B[k][j]$ with large strides in row-major memory, so cache reuse is poor and performance drops. Right: The reordered loop $(i-k-j)$ makes $j$ the innermost loop, so $B[k][j]$ and $C[i][j]$ are accessed contiguously; this improves spatial locality and prefetch efficiency.</figcaption>
 </figure>
 
 
